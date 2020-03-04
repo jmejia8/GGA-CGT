@@ -19,7 +19,7 @@ Uploaded and documented by [jmejia8](https://github.com/jmejia8/).
 
 ### My first time (Linux):
 To build this program just compile by running `make` . Use the following command to
-run the instance `instances/BPP1.txt`:
+solve the instance `instances/BPP1.txt`:
 
 Running algorithm with default parameters (settings):
 
