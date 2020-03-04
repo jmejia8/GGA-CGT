@@ -2,7 +2,7 @@
 
 ## Grouping Genetic Algorithm with Controlled Gene Transmission for the Bin Packing Problem
 
-The program excecutes GGA-CGT over a set instances using different configurations
+The program executes GGA-CGT over a set instances using different configurations
 given by the user. Each configuration represents an independent execution of the GA.
 
 Author: 
@@ -14,7 +14,7 @@ Author:
 - División de Estudios de Posgrado e Investigación
 - Depto. de Sistemas y Computación
 
-Uploaded and documented by jmejia8.
+Uploaded and documented by [jmejia8](https://github.com/jmejia8/).
 
 
 ### My first time (Linux):
@@ -28,7 +28,7 @@ Running algorithm with default parameters (settings):
 ```
 
 
-Running algorithm with different parameters (settings):
+Running algorithm with different optional parameters:
 
 ```shell
 ./GGA-CGT --P_size 100 --max_gen 500 --p_m 0.83 --p_c 0.2 --k_ncs 1.3 --k_cs 4 --B_size 0.1 --life_span 10 --seed 1 --save_bestSolution 0 --instance instances/BPP1.txt
