@@ -6,6 +6,7 @@ The program excecutes GGA-CGT over a set instances using different configuration
 given by the user. Each configuration represents an independent execution of the GA.
 
 Author: 
+
     * Marcela Quiroz-Castellanos
     * qc.marcela@gmail.com
     * Tecnológico Nacional de México
@@ -16,9 +17,9 @@ Author:
 
 
 ### Input:
-File "instances.txt" including the name of the BPP instances to be solved;
+File `instances.txt` including the name of the BPP instances to be solved;
 Files including the standard instances to be solve;
-File "configurations.txt" including the parameter values for each experiment;
+File `configurations.txt` including the parameter values for each experiment;
 
 ### Output:
 A set of files `GGA-CGT_(i).txt` including the experimental results for each
