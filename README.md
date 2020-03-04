@@ -1,6 +1,6 @@
 # GGA-CGT
 
-## GROUPING GENETIC ALGORITHM WITH CONTROLLED GENE TRANSMISSION FOR THE BIN PACKING PROBLEM
+## Grouping Genetic Algorithm with Controlled Gene Transmission for the Bin Packing Problem
 
 The program excecutes GGA-CGT over a set instances using different configurations
 given by the user. Each configuration represents an independent execution of the GA.
