@@ -7,12 +7,12 @@ given by the user. Each configuration represents an independent execution of the
 
 Author: 
 
-    * Marcela Quiroz-Castellanos
-    * qc.marcela@gmail.com
-    * Tecnológico Nacional de México
-    * Instituto Tecnológico de Ciudad Madero
-    * División de Estudios de Posgrado e Investigación
-    * Depto. de Sistemas y Computación
+- Marcela Quiroz-Castellanos
+- qc.marcela@gmail.com
+- Tecnológico Nacional de México
+- Instituto Tecnológico de Ciudad Madero
+- División de Estudios de Posgrado e Investigación
+- Depto. de Sistemas y Computación
 
 
 
