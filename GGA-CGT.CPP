@@ -207,6 +207,11 @@ int main(int argc, char *argv[])
       sscanf(get_parm(argc, argv, str_tmp), "%d",      &save_bestSolution);
       sprintf(str_tmp, "%s", "--instance");
       sscanf(get_parm(argc, argv, str_tmp), "%s",      file);
+
+      if (file[0] == '-' && file[1] == '1') {
+        printf("Choose an instance using: --instance [my-instance.txt]\n");
+        return 1;
+      }
       // sscanf(get_parm(argc, argv, "--save_bestSolution"), "%d",     &save_bestSolution);      
 
       P_size = P_size >= 0 ? P_size : 100;
