@@ -14,12 +14,26 @@ Author:
 - División de Estudios de Posgrado e Investigación
 - Depto. de Sistemas y Computación
 
+Uploaded and documented by jmejia8.
 
 
-### Input:
-File `instances.txt` including the name of the BPP instances to be solved;
-Files including the standard instances to be solve;
-File `configurations.txt` including the parameter values for each experiment;
+### My first time (Linux):
+To build this program just compile by running `make` . Use the following command to
+run the instance `instances/BPP1.txt`:
+
+Running algorithm with default parameters (settings):
+
+```shell
+./GGA-CGT --instance instances/BPP1.txt
+```
+
+
+Running algorithm with different parameters (settings):
+
+```shell
+./GGA-CGT --P_size 100 --max_gen 500 --p_m 0.83 --p_c 0.2 --k_ncs 1.3 --k_cs 4 --B_size 0.1 --life_span 10 --seed 1 --save_bestSolution 0 --instance instances/BPP1.txt
+```
+
 
 ### Output:
 A set of files `GGA-CGT_(i).txt` including the experimental results for each
