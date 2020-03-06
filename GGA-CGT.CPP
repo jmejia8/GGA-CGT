@@ -430,7 +430,7 @@ long int Generation()
    j = 0;
    for(i = P_size - 1; i > P_size - (p_m*P_size); i--)
   {
-      if(j < (int)(P_size*B_size) && generation+ 1 - population[ordered_population[i]][number_items + 2].Bin_Fullness < life_span)
+      if(i != j && j < (int)(P_size*B_size) && generation+ 1 - population[ordered_population[i]][number_items + 2].Bin_Fullness < life_span)
       { /*-----------------------------------------------------------------------------------------------------
       ----------------------------------Controlled replacement for mutation----------------------------------
       -----------------------------------------------------------------------------------------------------*/
